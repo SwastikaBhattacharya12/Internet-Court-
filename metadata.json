@@ -1,0 +1,6 @@
+{
+  "name": "Internet Court",
+  "description": "The ultimate healthy debate platform where community jurists and generative AI judge real-life drama with wit, empathy, and game-style mechanics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

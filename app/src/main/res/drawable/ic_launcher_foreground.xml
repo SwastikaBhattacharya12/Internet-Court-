@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Matte Dark Glassmorphic Chat Bubble Backplate (Sleek slate-zinc base) -->
+    <path
+        android:pathData="M 54,26 C 68.3,26 80,37.7 80,52 C 80,66.3 68.3,78 54,78 C 49.5,78 45.4,76.8 41.8,74.8 L 29,81 L 34,69 C 30.2,64.2 28,58.3 28,52 C 28,37.7 39.7,26 54,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="26"
+                android:endX="54"
+                android:endY="78"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#F2141416" /> <!-- Premium dark steel -->
+                <item android:offset="1.0" android:color="#F20A0A0B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Hot Orange Chat Bubble Outer Ring -->
+    <path
+        android:pathData="M 54,26 C 68.3,26 80,37.7 80,52 C 80,66.3 68.3,78 54,78 C 49.5,78 45.4,76.8 41.8,74.8 L 29,81 L 34,69 C 30.2,64.2 28,58.3 28,52 C 28,37.7 39.7,26 54,26 Z"
+        android:strokeWidth="2.2"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="28"
+                android:startY="52"
+                android:endX="80"
+                android:endY="52"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF6A00" /> <!-- Hot orange start -->
+                <item android:offset="0.5" android:color="#FF4D00" /> <!-- Neon court gold -->
+                <item android:offset="1.0" android:color="#FF2F00" /> <!-- Rich vermilion -->
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Sound Block Platform (Glowing Orange Base) -->
+    <path
+        android:pathData="M31,73 L43,61"
+        android:strokeWidth="6.5"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="31"
+                android:startY="73"
+                android:endX="43"
+                android:endY="61"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#141416" />
+                <item android:offset="0.5" android:color="#FF4D00" /> 
+                <item android:offset="1.0" android:color="#141416" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M31,73 L43,61"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFA500" />
+
+    <!-- Gavel Handle (Slanted, Orange-to-White Core Gradient) -->
+    <path
+        android:pathData="M36,68 L64,40"
+        android:strokeWidth="4.0"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="36"
+                android:startY="68"
+                android:endX="64"
+                android:endY="40"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF4D00" />
+                <item android:offset="0.7" android:color="#FFA500" />
+                <item android:offset="1.0" android:color="#FFFFFF" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Gavel Mallet-Head Body (Sleek Obsidian with Glowing Orange core) -->
+    <path
+        android:pathData="M48,38 L66,56"
+        android:strokeWidth="12.0"
+        android:strokeLineCap="square">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="48"
+                android:startY="38"
+                android:endX="66"
+                android:endY="56"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0A0A0B" />
+                <item android:offset="0.3" android:color="#141416" />
+                <item android:offset="0.5" android:color="#FF4D00" /> <!-- Hot orange core energy -->
+                <item android:offset="0.7" android:color="#141416" />
+                <item android:offset="1.0" android:color="#0A0A0B" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Mallet-Head Caps (Orange Neon highlights representing consensus) -->
+    <path
+        android:pathData="M46.5,36.5 L48.5,38.5"
+        android:strokeWidth="12.0"
+        android:strokeLineCap="square"
+        android:strokeColor="#FF6A00" />
+
+    <path
+        android:pathData="M65.5,55.5 L67.5,57.5"
+        android:strokeWidth="12.0"
+        android:strokeLineCap="square"
+        android:strokeColor="#FF2F00" />
+
+    <!-- Orange Social Reaction Orbs (Consensus orbs) -->
+    <path
+        android:pathData="M36,42 m-2,0 a2,2 0,1 1,4 0 a2,2 0,1 1,-4 0"
+        android:fillColor="#FF8C00" />
+    <path
+        android:pathData="M36,42 m-3.5,0 a3.5,3.5 0,1 1,7 0 a3.5,3.5 0,1 1,-7 0"
+        android:strokeColor="#80FF4D00"
+        android:strokeWidth="0.8"
+        android:fillColor="#00000000" />
+
+    <path
+        android:pathData="M72,62 m-2,0 a2,2 0,1 1,4 0 a2,2 0,1 1,-4 0"
+        android:fillColor="#FFA500" />
+    <path
+        android:pathData="M72,62 m-3.5,0 a3.5,3.5 0,1 1,7 0 a3.5,3.5 0,1 1,-7 0"
+        android:strokeColor="#80FFA500"
+        android:strokeWidth="0.8"
+        android:fillColor="#00000000" />
+</vector>
